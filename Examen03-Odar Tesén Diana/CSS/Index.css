@@ -1,0 +1,146 @@
+
+main{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #A2DAD7;
+    width: 100%;
+
+}
+#caja1{
+    
+    width: 10%;
+    float: left;
+    margin-left: 50px;
+    
+}
+#caja2{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    width: 30%;
+    text-align: left;
+}
+#caja3{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+header{
+    
+    
+    color:black;
+    background-color: #2d6a4f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topnav {
+    overflow: hidden;
+    background-color: black;
+   width: 100%;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.topnav a {
+    float: left;
+    margin-left: 50px;
+    color:rgb(165, 165, 165);
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer1{
+    overflow: hidden;
+    color:black;
+}
+.footer2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+aside{
+    width: 20%;
+    float: right;
+    color:black;
+}
+
+
+article{
+    width: 80%;
+    float: left;
+    background-image: url("../img/fondoo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    display: grid;
+    width: 90%;
+    margin-left: 50px;
+    grid-template-columns: 80% 20%;
+    grid-template-areas:
+    "texto imagen"
+}
+#texto{
+    grid-area: texto;
+}
+#imagen{
+    grid-area: imagen;
+    margin-top: 90px;
+}
+#imagen2{
+    margin-top: 50px;
+}
+#nav1{
+    width: 10%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+#caja4{
+    float: left;
+    width: fit-content;
+    margin-left: 75px;
+}
+#caja5{
+    float: left;;
+    width: fit-content;
+    margin-left: 75px;
+}
+#caja6{
+    float: left;
+    width: fit-content;
+    margin-left: 75px;
+
+}
+#caja7{
+    float: left;
+    width: fit-content;
+    margin-left: 75px;
+}
+
+#menuas, #enlacesas{
+        border-radius: 20px;
+        margin-left: 50px;
+        background-color: #61C1BF;
+        width: 60%
+        
+    }
+
+
+
+
+footer{
+    clear: both;
+    background-color: rgb(122, 216, 211);
+    
+}
+h1,p{
+    margin:0px;
+    padding:10px;
+}

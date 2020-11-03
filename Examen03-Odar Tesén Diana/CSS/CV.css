@@ -1,0 +1,50 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(214, 219, 219);
+ }
+ header h1{
+     text-align: center;
+     font-family:Arial black;
+     background-color: #93D1D7;
+     color: rgb(101, 141, 145);
+ }
+ 
+ div{
+     background-color: #93D1D7;
+ }
+ nav{
+     text-align: end;
+     background-color: black;
+     
+     
+ }
+ nav a{
+     font-size:18px;
+     text-decoration: none;
+     color:white
+     
+ }
+ h1{
+     font-family: Arial;
+     color: rgb(101, 141, 145);
+     
+ }
+ h2{
+     font-family: Brodway;
+     background-color: #93D1D7;
+     color: rgb(101, 141, 145);
+ }
+ 
+ li{
+     color:black
+ }
+ li strong{
+     color: rgb(78, 108, 110);
+ }
+ th{
+     color: rgb(78, 108, 110);
+ }
+ td{
+     color:black
+ }
+    

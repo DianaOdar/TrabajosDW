@@ -1,0 +1,175 @@
+main{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium';
+    background-color: #A2DAD7;
+    width: 100%;
+
+}
+#caja1{
+    
+    width: 10%;
+    float: left;
+    margin-left: 50px;
+    
+}
+#caja2{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    width: 30%;
+    text-align: left;
+}
+#caja3{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+header{
+    
+    
+    color:black;
+    background-image: url("../img/fondo1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topnav {
+    overflow: hidden;
+    background-color: black;
+   width: 100%;
+   
+}
+
+.topnav a {
+    float: left;
+    margin-left: 50px;
+    color:rgb(163, 163, 163);
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#label{
+    float: left;
+    margin-left: 50px;
+}
+#texto{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#texto input, textarea{
+    background-color: rgb(86, 173, 172);
+    border-color: rgb(56, 124, 123);
+}
+.footer1{
+    overflow: hidden;
+    color:black;
+}
+.footer2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+aside{
+    width: 20%;
+    float: right;
+    float: right;
+    color:black;
+}
+#menuas, #enlacesas{
+    border-radius: 20px;
+    margin-left: 50px;
+    background-color: #61C1BF;
+    width: 60%
+    
+}
+
+article{
+    width: 80%;
+    float: left;
+    grid-area: content;
+    background-image: url("../img/fondoo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    
+    width: 90%;
+    margin-left: 50px;
+    float: left;
+    
+}
+#contacto{
+    float: left;
+    width: 50%;
+    background-color: #A2DAD7;
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+#botones{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 40px;
+    
+}
+#botones input{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 19px;
+    background-color: #61C1BF;
+    border-style: groove;
+    border-color: rgb(56, 124, 123);
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#informacion1{
+    width: 28%;
+    float: left;
+    background-color: #A2DAD7;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+
+#nav1{
+    width: 10%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#caja4{
+    float: left;
+    width: fit-content;
+    margin-left: 75px;
+}
+#caja5{
+    float: left;;
+    width: fit-content;
+    margin-left: 75px;
+}
+#caja6{
+    float: left;
+    width: fit-content;
+    margin-left: 75px;
+
+}
+#caja7{
+    float: left;
+    width: fit-content;
+    margin-left: 75px;
+}
+
+footer{
+    clear: both;
+    background-color: rgb(122, 216, 211);
+    
+}
+h1,p{
+    margin:0px;
+    padding:10px;
+}

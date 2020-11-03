@@ -1,0 +1,125 @@
+body{
+    background-image: url("../img/fondoheadd.jpg");
+      background-position: center;
+  }
+  main {
+    /* first mobile */
+    color: rgb(73, 73, 73);
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium';
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0.5fr 0.2fr 1fr 0.5fr 0.2fr;
+    grid-template-areas:
+      "my-header my-header my-header"
+      "my-nav my-nav my-nav"
+      "my-section my-section my-section"
+      "my-aside my-aside my-aside"
+      "my-footer my-footer my-footer"
+  }
+  
+  header {
+    grid-area: my-header;
+    background-color:#F7F7F7;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+      "texto imagen"
+  }
+  .texto{
+    grid-area: texto;
+    text-align: center;
+   
+  }
+  .dog{
+   grid-area: imagen;
+  }
+  
+  nav {
+    grid-area: my-nav;
+    background-color: #5CC6BA;
+  }
+  nav a{
+    padding: 20px 22px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(27, 58, 54);
+  }
+  
+  aside {
+    grid-area: my-aside;
+    background-color: #5CC6BA;
+    color: rgb(27, 58, 54);
+  }
+  
+  section {
+    grid-area: my-section;
+    background-color:rgb(212, 209, 209);
+    display: grid;
+    color: rgb(73, 73, 73);
+    grid-template-columns: 15% 80%;
+    grid-template-areas:
+    "icono parrafo "
+    "icono1 parrafo1"
+    "icono2 parrafo2"
+  }
+  
+  footer {
+    grid-area: my-footer;
+    background-color: rgb(150, 87, 182);
+    text-align: center;
+  }
+  
+  .article1{
+    grid-area: parrafo;
+    
+  }
+  .img1{
+    grid-area: icono;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+  }
+  .article2{
+    grid-area: parrafo1;
+  }
+  .img2{
+    grid-area: icono1;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+  }
+  .article3{
+    grid-area: parrafo2;
+  }
+  .img3{
+    grid-area: icono2;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+  }
+  @media (min-width: 600px) and (max-width: 1000px) {
+    main {
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-rows: 150px 100px 1fr 100px;
+      grid-template-areas:
+        "my-header my-header my-header"
+        "my-nav my-nav my-nav"
+        "my-aside my-section my-section"
+        "my-footer my-footer my-footer"
+    }
+  }
+  
+  @media (min-width: 1001px) {
+    main {
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-rows: 200px 1fr 100px;
+      grid-template-areas:
+        "my-header my-header my-header"
+        "my-nav my-section my-aside"
+        "my-footer my-footer my-footer"
+    }
+  }
+  

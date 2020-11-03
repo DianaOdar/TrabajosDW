@@ -1,0 +1,33 @@
+
+#caja0{
+    font-family: calibri;
+    font-size: 30px;
+    color: red;
+    margin: 5px;
+}
+#caja1{
+    font-family: calibri;
+    font-size: 30px;
+    margin: 5px;
+   
+}
+p{ 
+    font-family: calibri;
+    font-size: 18px;
+
+}
+img{
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+}
+#caja2
+{
+    background:red;
+    color: white;
+    float: right;
+    font-family: verdana;
+    width: auto;
+    
+}

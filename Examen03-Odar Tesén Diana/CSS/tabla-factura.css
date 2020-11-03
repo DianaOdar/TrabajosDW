@@ -1,0 +1,31 @@
+
+@font-face{
+    font-family: "DINNextLTPro-Light";
+    src: url("../assets/fonts/DINNextLTPro-Light.ttf");
+}
+body{
+    background-color: #F9FAFC;
+    font-family: "DINNextLTPro-Light";
+}
+.entels, .detallecuo, .detallecon{
+    background-color:#005CFF;
+    color:white;
+}
+table {
+    border-color:#005CFF ;
+    background-color:#F9FAFC;
+    margin: 0 auto;
+
+    border-collapse: collapse;
+}
+.periodo{
+    background-color:#005CFF;
+    color:white;
+    font-size: 20px;
+    padding: 1em;
+    float:right;
+    width: fit-content;
+    text-align: center;
+    border-radius: 15px
+    
+}
