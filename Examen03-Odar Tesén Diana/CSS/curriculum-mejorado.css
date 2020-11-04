@@ -27,7 +27,7 @@ main{
 header{
 
     color:black;
-    background-image: url("../img/fondo1.png");
+    background-image: url("../img/fo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,11 +42,11 @@ header{
 .topnav a {
     float: left;
     margin-left: 50px;
-    color:rgb(163, 163, 163);
+    color:rgb(255, 255, 255);
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 .footer1{
     overflow: hidden;
@@ -64,10 +64,10 @@ aside{
     color:black;
 }
 #menuas, #enlacesas{
-    border-radius: 20px;
+    border-radius: 10px;
     margin-left: 50px;
     background-color: #61C1BF;
-    width: 60%
+    width: 80%
     
 }
 a{
@@ -78,14 +78,14 @@ article{
     width: 80%;
     float: left;
     grid-area: content;
-    background-image: url("../img/fondoo.jpg");
+    background-color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 section{
-    width: 95%;
+    width: 100%;
     margin-left: 50px;
 }
 
@@ -119,7 +119,7 @@ section{
 
 footer{
     clear: both;
-    background-color: rgb(122, 216, 211);
+    background-color:  #A2DAD7(122, 216, 211);
 }
 
 #otroscursos, #experiencia{

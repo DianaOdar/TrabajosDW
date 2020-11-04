@@ -1,7 +1,11 @@
 body{
     font-family: 'Franklin Gothic Medium';
     background-color: rgb(214, 219, 219);
- }
+    margin : 0;
+    padding : 0;
+
+}
+ 
  header h1{
      text-align: center;
      font-family:Arial black;
@@ -47,4 +51,3 @@ body{
  td{
      color:black
  }
-    

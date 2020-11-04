@@ -1,9 +1,11 @@
 
-main{
+main{ 
+    
     margin: auto;
     font-family: 'Franklin Gothic Medium';
     background-color: #A2DAD7;
     width: 100%;
+    
 
 }
 #caja1{
@@ -29,14 +31,15 @@ header{
     
     
     color:black;
-    background-color: #2d6a4f;
-    background-position: center;
+    background-image: url("../img/fo.jpg");
+    
+     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .topnav {
     overflow: hidden;
-    background-color: black;
+    background-color:black;
    width: 100%;
    
 }
@@ -47,11 +50,11 @@ a{
 .topnav a {
     float: left;
     margin-left: 50px;
-    color:rgb(165, 165, 165);
+    color:rgb(255, 255, 255);
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 .footer1{
     overflow: hidden;
@@ -61,6 +64,17 @@ a{
     background-color: black;
     color: white;
     text-align: center;
+}
+.footer{
+    padding: 2rem 0;
+    background-color: #161A1D;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.footer h1{
+    color: white;
 }
 aside{
     width: 20%;
@@ -72,8 +86,8 @@ aside{
 article{
     width: 80%;
     float: left;
-    background-image: url("../img/fondoo.jpg");
-    background-position: center;
+    background-color:white;
+    background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -87,6 +101,7 @@ section{
 }
 #texto{
     grid-area: texto;
+    
 }
 #imagen{
     grid-area: imagen;
@@ -116,6 +131,8 @@ section{
     float: left;
     width: fit-content;
     margin-left: 75px;
+    
+    
 
 }
 #caja7{
@@ -125,19 +142,17 @@ section{
 }
 
 #menuas, #enlacesas{
-        border-radius: 20px;
+        
+        border-radius: 10px;
         margin-left: 50px;
-        background-color: #61C1BF;
-        width: 60%
+        background-color:#61C1BF  ;
+        width: 80%
         
     }
 
-
-
-
 footer{
     clear: both;
-    background-color: rgb(122, 216, 211);
+    background-color:  #A2DAD7(122, 216, 211);
     
 }
 h1,p{
